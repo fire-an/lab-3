@@ -37,7 +37,7 @@ const productList = [
   {
     id: 6,
     name: "Fruity Pancake with Orange & Blueberry",
-    img: "../src/images/6.png",
+    img: "../images/6.png",
     time: "30 Minutes",
     type: "Sweet",
   },
