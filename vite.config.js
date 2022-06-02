@@ -7,7 +7,7 @@ module.exports = defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         order: resolve(__dirname, 'order.html'),
-        detail: resolve(__dirname, 'detail.html')
+        detail: resolve(__dirname, 'pageDetail.html')
       }
     }
   }
