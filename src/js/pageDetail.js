@@ -64,7 +64,7 @@ function showProduct(products) {
     </p>
     <form action="" class="flex">
       <input
-        class="lg:py-2 py-[1px] w-50 px-2 border rounded-md rounded-bl-md mr-5"
+        class="py-3 w-50 px-2 border rounded-md rounded-bl-md mr-5"
         type="text"
         placeholder="Quantity"
       />

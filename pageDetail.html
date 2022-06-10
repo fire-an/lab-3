@@ -27,14 +27,14 @@
             <li>
               <a
                 class="inline-block m-3 hover:text-[#F54748] font-bold"
-                href="#"
+                href="index.html"
                 >Home</a
               >
             </li>
             <li>
               <a
                 class="inline-block m-3 hover:text-[#F54748] font-bold"
-                href="#"
+                href="order.html"
                 >Products</a
               >
             </li>
@@ -72,7 +72,7 @@
           <button
             class="rounded-md border border-[#F54748] text-[#F54748] py-3 px-5 font-bold ml-3"
           >
-            Sign in
+            <a href="signin.html">Sign in</a>
           </button>
           <button
             class="rounded-md border border-[#F54748] text-white bg-[#F54748] py-3 px-5 font-bold ml-3"
@@ -81,7 +81,96 @@
           </button>
         </div>
       </header>
-      <div id="detail"></div>
+      <section id="detail" class="mb-[100px]"></section>
+      <section class="related-product mb-10">
+        <h3 class="font-bold mb-4 text-[24px]">Related Products</h3>
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-8">
+          <div>
+            <img
+              src="https://res.cloudinary.com/do2d1jyoh/image/upload/v1654870908/lab3/4_kj8sa2.png"
+              class="rounded-3xl mb-4 w-full"
+              alt=""
+            />
+            <h3 class="font-bold text-sm mb-4">
+              Fresh and Healthy Mixed Mayonnaise Salad
+            </h3>
+            <p class="font-bold text-[#F54748] mb-4">$30</p>
+            <button
+              class="text-sm w-full bg-[#111928] text-white p-2 rounded-md"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <hr class="lg:hidden" />
+          <div>
+            <img
+              src="https://res.cloudinary.com/do2d1jyoh/image/upload/v1654870910/lab3/5_ozwsuf.png"
+              class="rounded-3xl mb-4 w-full"
+              alt=""
+            />
+            <h3 class="font-bold text-sm mb-4">
+              The Creamiest Creamy Chicken Chicken
+            </h3>
+            <p class="font-bold text-[#F54748] mb-4">$30</p>
+            <button
+              class="text-sm w-full bg-[#111928] text-white p-2 rounded-md"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <hr class="lg:hidden" />
+          <div>
+            <img
+              src="https://res.cloudinary.com/do2d1jyoh/image/upload/v1654870909/lab3/6_orx15f.png"
+              class="rounded-3xl mb-4 w-full"
+              alt=""
+            />
+            <h3 class="font-bold text-sm mb-4">
+              Fruity Pancake with Orange & Blueberry
+            </h3>
+            <p class="font-bold text-[#F54748] mb-4">$30</p>
+            <button
+              class="text-sm w-full bg-[#111928] text-white p-2 rounded-md"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <hr class="lg:hidden" />
+        </div>
+      </section>
+      <footer class="flex justify-between items-center">
+        <div>
+          <a href="" class="font-bold text-xl"
+            >Fudo<span class="text-red-600">.</span>
+          </a>
+        </div>
+        <ul class="flex">
+          <li>
+            <a
+              class="inline-block m-3 hover:text-[#F54748] font-bold"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="inline-block m-3 hover:text-[#F54748] font-bold"
+              href="order.html"
+              >Products</a
+            >
+          </li>
+          <li>
+            <a class="inline-block m-3 hover:text-[#F54748] font-bold" href="#"
+              >About us</a
+            >
+          </li>
+          <li>
+            <a class="inline-block m-3 hover:text-[#F54748] font-bold" href="#"
+              >Contact us</a
+            >
+          </li>
+        </ul>
+      </footer>
     </div>
     <script type="module" src="./src/js/pageDetail.js"></script>
   </body>
